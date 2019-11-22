@@ -9,7 +9,7 @@ module Api
             dica = ::Dica.where(id: rand(1..11)).first
           end
         else
-          dica = ::Dica.where(id: rand(1..11)).first
+          dica = "Olá Mundo" #::Dica.where(id: rand(1..11)).first
         end
         respond_to do |format|
           format.json {render json: {id: dica.id, dica: dica.mensagem }}
