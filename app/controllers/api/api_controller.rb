@@ -1,6 +1,6 @@
 module Api
   class ApiController < ActionController::Base
-    before_action :restrict_access
+    # before_action :restrict_access
 
     private
       def restrict_access
