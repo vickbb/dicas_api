@@ -2291,3 +2291,129 @@ Processing by Api::V1::DicaController#dicas as JSON
 Completed 200 OK in 30ms (Views: 0.3ms | ActiveRecord: 3.4ms)
 
 
+Started GET "/api/dicas?idMensagem=1" for 127.0.0.1 at 2019-11-22 14:36:48 -0300
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by Api::V1::DicaController#dicas as JSON
+  Parameters: {"idMensagem"=>"1"}
+Completed 500 Internal Server Error in 87ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `dicas_gerais' for #<Api::V1::DicaController:0x00007fb40c2e7a80>):
+  
+app/controllers/api/v1/dica_controller.rb:7:in `dicas'
+Started GET "/api/dicas?idMensagem=1" for 127.0.0.1 at 2019-11-22 14:37:35 -0300
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by Api::V1::DicaController#dicas as JSON
+  Parameters: {"idMensagem"=>"1"}
+Completed 500 Internal Server Error in 44ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `dicas_gerais' for #<Api::V1::DicaController:0x00007fb40c89c6d8>):
+  
+app/controllers/api/v1/dica_controller.rb:7:in `dicas'
+Started GET "/api/dicas?idMensagem=1" for 127.0.0.1 at 2019-11-22 14:39:04 -0300
+Processing by Api::V1::DicaController#dicas as JSON
+  Parameters: {"idMensagem"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `id' for nil:NilClass):
+  
+app/controllers/api/v1/dica_controller.rb:28:in `block (2 levels) in dicas'
+app/controllers/api/v1/dica_controller.rb:27:in `dicas'
+Started GET "/api/dicas?idMensagem=1" for 127.0.0.1 at 2019-11-22 14:39:59 -0300
+Processing by Api::V1::DicaController#dicas as JSON
+  Parameters: {"idMensagem"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `first' for nil:NilClass):
+  
+app/controllers/api/v1/dica_controller.rb:28:in `block (2 levels) in dicas'
+app/controllers/api/v1/dica_controller.rb:27:in `dicas'
+Started GET "/api/dicas?idMensagem=1" for 127.0.0.1 at 2019-11-22 14:44:38 -0300
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by Api::V1::DicaController#dicas as JSON
+  Parameters: {"idMensagem"=>"1"}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/dicas?idMensagem=2" for 127.0.0.1 at 2019-11-22 14:45:00 -0300
+Processing by Api::V1::DicaController#dicas as JSON
+  Parameters: {"idMensagem"=>"2"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/dicas?idMensagem=2" for 127.0.0.1 at 2019-11-22 14:46:20 -0300
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Started GET "/api/dicas?idMensagem=2" for 127.0.0.1 at 2019-11-22 14:46:30 -0300
+Processing by Api::V1::DicaController#dicas as JSON
+  Parameters: {"idMensagem"=>"2"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by Api::V1::DicaController#dicas as JSON
+  Parameters: {"idMensagem"=>"2"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/dicas?idMensagem=2" for 127.0.0.1 at 2019-11-22 14:47:04 -0300
+Processing by Api::V1::DicaController#dicas as JSON
+  Parameters: {"idMensagem"=>"2"}
+Completed 200 OK in 11ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/dicas?idMensagem=2" for 127.0.0.1 at 2019-11-22 14:47:28 -0300
+Processing by Api::V1::DicaController#dicas as JSON
+  Parameters: {"idMensagem"=>"2"}
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/dicas?idMensagem=2" for 127.0.0.1 at 2019-11-22 14:48:00 -0300
+Processing by Api::V1::DicaController#dicas as JSON
+  Parameters: {"idMensagem"=>"2"}
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/dicas?idMensagem=20" for 127.0.0.1 at 2019-11-22 14:48:05 -0300
+Processing by Api::V1::DicaController#dicas as JSON
+  Parameters: {"idMensagem"=>"20"}
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/dicas?idMensagem=20" for 127.0.0.1 at 2019-11-22 14:49:20 -0300
+Processing by Api::V1::DicaController#dicas as JSON
+  Parameters: {"idMensagem"=>"20"}
+Completed 200 OK in 10ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/dicas?idMensagem=20" for 127.0.0.1 at 2019-11-22 14:49:36 -0300
+Processing by Api::V1::DicaController#dicas as JSON
+  Parameters: {"idMensagem"=>"20"}
+Completed 200 OK in 10ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/dicas?idMensagem=20" for 127.0.0.1 at 2019-11-22 14:50:20 -0300
+Processing by Api::V1::DicaController#dicas as JSON
+  Parameters: {"idMensagem"=>"20"}
+Completed 200 OK in 9ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/dicas?idMensagem=20" for 127.0.0.1 at 2019-11-22 14:50:24 -0300
+Processing by Api::V1::DicaController#dicas as JSON
+  Parameters: {"idMensagem"=>"20"}
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/dicas?idMensagem=20" for 127.0.0.1 at 2019-11-22 14:50:26 -0300
+Processing by Api::V1::DicaController#dicas as JSON
+  Parameters: {"idMensagem"=>"20"}
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
