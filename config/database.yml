@@ -48,8 +48,5 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  adapter: postgresql
-  encoding: utf8
-  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  <<: *default
   database: mail_api_test
-  password: <%= ENV['MAIL_API_DATABASE_PASSWORD'] %>
